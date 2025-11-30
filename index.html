@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoffeeHub Demo</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+      backdrop-filter: blur(2px);
+    }
+
+    .card {
+      background: rgba(0,0,0,0.55);
+      padding: 25px;
+      width: 320px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .demo-tag {
+      background: rgba(255, 204, 0, 0.2);
+      padding: 8px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      color: #ffdd88;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 25px;
+      background: #C49A6C;
+      text-decoration: none;
+      color: black;
+      border-radius: 8px;
+      margin-top: 10px;
+      transition: 0.4s;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background: #A57E54;
+      transform: scale(1.05);
+    }
+
+    ul {
+      text-align: left;
+      padding-left: 20px;
+    }
+  </style>
+
+  <!-- خط Cairo -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="demo-tag">
+      ⚠️ هذا مثال تصميم فقط – موقع تجريبي (Demo)
+    </div>
+
+    <h2>CoffeeHub</h2>
+    <p>قهوة مختصة – تجربة فريدة</p>
+
+    <!-- نفس صورة القهوة الأصلية -->
+    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="coffee">
+
+    <p>المنيو المتوفر:</p>
+    <ul>
+      <li>Espresso</li>
+      <li>Latte</li>
+      <li>V60</li>
+      <li>Spanish Latte</li>
+      <li>قهوة اليوم</li>
+    </ul>
+
+    <a href="contact-to-us.html">تواصل معنا</a>
+  </div>
+
+</body>
+</html>

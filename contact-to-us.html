@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل معنا - Demo</title>
+
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom, #3e2418, #1c0e09);
+      margin: 0;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .contact-box {
+      background: rgba(0,0,0,0.55);
+      padding: 25px;
+      width: 330px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .demo-tag {
+      background: rgba(255, 204, 0, 0.15);
+      padding: 8px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      color: #ffdd88;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    textarea {
+      height: 120px;
+      resize: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #C49A6C;
+      border: none;
+      border-radius: 10px;
+      color: black;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    button:hover {
+      background: #A57E54;
+      transform: scale(1.05);
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="contact-box">
+
+    <div class="demo-tag">
+      ⚠️ هذه صفحة تواصل تجريبية ضمن نموذج التصميم فقط
+    </div>
+
+    <h2>تواصل معنا</h2>
+
+    <form>
+      <label>الاسم</label>
+      <input type="text" placeholder="اكتب اسمك">
+
+      <label>البريد الإلكتروني</label>
+      <input type="email" placeholder="your@email">
+
+      <label>رسالتك</label>
+      <textarea placeholder="اكتب رسالتك هنا..."></textarea>
+
+      <button type="button">إرسال (غير فعّال – مثال فقط)</button>
+    </form>
+
+    <a href="index.html">العودة للصفحة الرئيسية</a>
+  </div>
+
+</body>
+</html>
